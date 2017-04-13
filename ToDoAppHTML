@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hack Reactor NHAT's Todo App</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+  	<!-- The main container for our app. -->
+
+  	<div class="content">
+
+  		<!-- Control Panel -->
+  		<div>
+  			<h1 class="Header">Todo list</h1>
+  			<input id="todo-input" placeholder="Add a todo item" type="text" onkeydown="keyboardevent(event)" />
+  			<button type="submit" onClick="addTodo()">Add a todo</button>
+  		</div>
+  		
+  		<!-- Todo List -->
+  		<div>
+  			<ul id="todo-list">
+  				<li>This will be a list item.</li>
+  				<li>This will be a list item.</li>
+  				<li>This will be a list item.</li>
+  			</ul>
+  		</div>
+  	</div>
+
+  	<script src="index.js">
+
+  	</script>
+
+  	
+  </body>
